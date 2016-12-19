@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>cart_cache.c</itemPath>
+      <itemPath>cart_cache.h</itemPath>
+      <itemPath>cart_controller.h</itemPath>
+      <itemPath>cart_driver.c</itemPath>
+      <itemPath>cart_driver.h</itemPath>
+      <itemPath>cart_sim.c</itemPath>
+      <itemPath>cmpsc311_log.h</itemPath>
+      <itemPath>cmpsc311_util.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>assign3-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>assign3-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_cache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cart_cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_driver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cart_driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_sim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cmpsc311_log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cmpsc311_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_cache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cart_cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_controller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_driver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cart_driver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cart_sim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cmpsc311_log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cmpsc311_util.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
